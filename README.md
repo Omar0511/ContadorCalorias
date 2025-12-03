@@ -8,6 +8,11 @@
 - TailwindCSS
   - **_npm install tailwindcss @tailwindcss/vite_**
 - TypeScript
+- Generador de ID'S
+  - **_npm i uuid_**
+  - Si marca **error**, ejecutamos:
+    - **_npm i --save-dev @types/uuid_**
+
 
 ## Creación del proyecto
 
