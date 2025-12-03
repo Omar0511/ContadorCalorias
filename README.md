@@ -12,7 +12,8 @@
   - **_npm i uuid_**
   - Si marca **error**, ejecutamos:
     - **_npm i --save-dev @types/uuid_**
-
+- HeroIcons
+  - **_npm i @heroicons/react_**
 
 ## Creación del proyecto
 
