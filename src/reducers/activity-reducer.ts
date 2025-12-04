@@ -31,9 +31,18 @@ export const activityReducer = (
     // console.log('Desde el type de save-activity');
     // console.log(action.payload.newActivity);
 
+    let updateActivities: Activity[] = [];
+
+    if (state.activeId) {
+      updateActivities = state.activities.map( activity => activity.id === state.activeId ? action.payload.newActivity : activity);
+    } else {
+      updateActivities = [...state.activities, action.payload.newActivity]
+    }
+
     return {
       ...state,
-      activities: [...state.activities, action.payload.newActivity]
+      activities: updateActivities,
+      activeId: ''
     };
   }
 
