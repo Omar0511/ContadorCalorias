@@ -1,6 +1,6 @@
+import { useMemo, Dispatch } from "react";
 import type { Activity } from "../types";
 import { categories } from "../data/categories";
-import { useMemo, Dispatch } from "react";
 import { PencilSquareIcon, XCircleIcon } from "@heroicons/react/24/outline";
 import type { ActivityActions } from "../reducers/activity-reducer";
 
