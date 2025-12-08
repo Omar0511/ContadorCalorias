@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import { categories } from "../data/categories";
 import type { Activity } from "../types";
-import { ActivityActions, initialState, ActivityState } from '../reducers/activity-reducer';
+import { ActivityActions, ActivityState } from '../reducers/activity-reducer';
 
 type FormProps = {
   dispatch: Dispatch<ActivityActions>,
